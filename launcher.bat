@@ -2,5 +2,6 @@ echo off
 chcp 855
 cls
 gcc main.c
-a.exe
+if %errorlevel% == 0 (
+a.exe )
 pause
